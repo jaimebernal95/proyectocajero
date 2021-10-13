@@ -1,0 +1,90 @@
+body {
+    height: 400px;
+    background-image: url("../img/fond6.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center center;
+    font-family: 'Barlow', sans-serif;
+  }
+
+    
+  .logo {
+    width: 300px;
+    height: auto;
+    position: relative;
+    float: right;
+    
+
+  }
+
+  .fcc-btn {
+    
+    background-color: #79d480;
+    border-radius: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    font-size: 25px;
+    font-family: 'Open Sans Condensed', sans-serif;
+  }
+
+  .saludo {
+
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 55px;
+  }
+
+  .saldo {
+
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 35px;
+  }
+
+  .saldo1 {
+
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 28px;
+    border-radius: 50px;
+    text-align: center;
+    
+  }
+
+  .saldo2 {
+
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 28px;
+    border-radius: 50px;
+    text-align: center;
+    display: flex;
+  }
+
+  .saldo3 {
+
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 28px;
+    border-radius: 50px;
+    cursor: pointer;
+    
+  }
+
+
+  #columna {
+    
+    display: grid;
+    grid-template-columns: (5, 75px);
+    grid-template-rows: (5, 75px);
+    
+  }
+
+  .column {
+  grid-column-start: 3;
+  grid-row-start: 1;
+  grid-column-end: 4;
+  grid-row-end: 5;
+  }

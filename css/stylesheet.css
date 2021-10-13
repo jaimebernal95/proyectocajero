@@ -1,0 +1,101 @@
+body {
+    height: 400px;
+    background-image: url("../img/fond.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center center;
+    font-family: 'Barlow', sans-serif;
+  }
+
+  
+  
+  
+  .logo {
+    width: 300px;
+    height: auto;
+    position: relative;
+    float: right;
+
+  }
+
+  
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #000000;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  
+ 
+  .sidebar a {
+    display: block;
+    color: rgb(255, 255, 255);
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  
+  .sidebar a.active {
+    background-color: #004d11;
+    color: white;
+  }
+  
+  
+  .sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+  
+ 
+  div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+  }
+  
+  
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+  }
+  
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+  }
+
+  .registro{
+      position: absolute;
+      font-family: 'Staatliches', cursive;
+      color: rgb(61, 122, 0);
+      top: 160px;
+      left:480px;
+      z-index: 100;
+      font-size: 30px;
+      
+      
+      
+  }
+
+  .boton {
+    font-family: 'Barlow', sans-serif;
+    color: rgb(61, 122, 0);
+    background-color: darkgray;
+    border-radius: 50px;
+    font-size: 20px;
+  }
+
+  .uscon {
+    border-radius: 50px;
+    font-size: 28px;
+  }

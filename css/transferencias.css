@@ -1,0 +1,92 @@
+body {
+    height: 400px;
+    background-image: url("../img/fond3.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center center;
+    font-family: 'Barlow', sans-serif;
+  }
+
+    
+  .logo {
+    width: 300px;
+    height: auto;
+    position: relative;
+    float: right;
+
+  }
+
+  .saludo {
+    position: absolute;
+    top: 35px;
+    left: 700px;
+    font-size: 24px;
+     
+  }
+
+  .fcc-btn {
+    position: absolute;
+    top: 120px;
+    left: 760px;
+    background-color: #189e5f;
+    border-radius: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    width: 250px;
+    height: 50px;
+    font-size: 30px;
+    font-family: 'Barlow', sans-serif
+
+  }
+
+  .fcc-btn1 {
+    position: absolute;
+    top: 200px;
+    left: 760px;
+    background-color: #189e5f;
+    border-radius: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    width: 250px;
+    height: 50px;
+    font-size: 30px;
+    font-family: 'Barlow', sans-serif
+
+  }
+
+  .fcc-btn2 {
+    position: absolute;
+    top: 280px;
+    left: 760px;
+    background-color: #189e5f;
+    border-radius: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    width: 250px;
+    height: 50px;
+    font-size: 30px;
+    font-family: 'Barlow', sans-serif;
+    
+
+  }
+
+
+
+
+
+  

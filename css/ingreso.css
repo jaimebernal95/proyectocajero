@@ -1,0 +1,28 @@
+body {
+    height: 400px;
+    background-image: url("../img/fond2.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center center;
+    font-family: 'Barlow', sans-serif;
+  }
+
+  
+  
+  
+  .logo {
+    width: 300px;
+    height: auto;
+    position: relative;
+    float: right;
+
+  }
+
+ 
+
+  .saludo {
+    position: absolute;
+    top: 170px;
+    left: 870px;
+     
+  }
